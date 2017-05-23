@@ -18,7 +18,7 @@ import {ParallaxMap} from 'react-parallax-map';
 or
 
 ```javascript
-var ParallaxMap = require('react-parallax-map);
+var ParallaxMap = require('react-parallax-map');
 ```
 
 ## How to use
