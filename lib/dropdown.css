@@ -1,0 +1,32 @@
+.dropdown-global {
+  position: absolute;
+  z-index: 9991;
+  display: none;
+  margin-top: -1px;
+}
+.dropdown-global input {
+  display: none;
+}
+.dropdown-global .preview-color {
+  display: none;
+}
+.dropdown-global .current {
+  position: absolute;
+  top: -37px;
+  width: 100%;
+  display: block;
+  border: 1px solid #414a60;
+  border-bottom: none;
+  box-sizing: border-box;
+  z-index: 9992;
+  height: 38px;
+  border-radius: 3px 3px 0 0;
+  cursor: pointer;
+}
+.dropdown-global .sel-dropdown {
+  display: block;
+  position: relative;
+}
+.dropdown-global.active {
+  display: block;
+}
