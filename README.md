@@ -2,7 +2,7 @@
 
 React component with TypeScript for making parallax effect in React with using parallax maps
 
-
+Demo [react-video-seek-slider](http://parallax.egorov.pw/)
 
 ## How to install
 ```

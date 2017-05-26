@@ -1,7 +1,7 @@
 {
 	"name": "react-parallax-map",
 	"description": "React ui dropdown component",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"author": "IBITCY",
 	"license": "MIT",
