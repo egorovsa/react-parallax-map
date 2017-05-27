@@ -1,9 +1,9 @@
 {
 	"name": "react-parallax-map",
-	"description": "React ui dropdown component",
-	"version": "1.0.2",
+	"description": "React ui parallax map",
+	"version": "1.0.3",
 	"main": "index.js",
-	"author": "IBITCY",
+	"author": "Egorov Sergey",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/alt": "^0.16.31",
@@ -35,7 +35,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ibitcy/react-ui-dropdown"
+		"url": "https://github.com/egorovsa/react-paralax-map"
 	},
 	"dependencies": {
 	}
