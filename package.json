@@ -1,7 +1,7 @@
 {
 	"name": "react-parallax-map",
 	"description": "React ui parallax map",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"main": "index.js",
 	"author": "Egorov Sergey",
 	"license": "MIT",
@@ -35,7 +35,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/egorovsa/react-paralax-map"
+		"url": "https://github.com/egorovsa/react-parallax-map"
 	},
 	"dependencies": {
 	}
