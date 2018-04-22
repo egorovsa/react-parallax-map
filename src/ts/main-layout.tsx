@@ -1,8 +1,7 @@
 import * as React from 'react';
-import {ParallaxMap} from "../ui/react-parallax-map";
+import {ParallaxMap} from "./index";
 
 export interface Props {
-
 }
 
 export interface State {
@@ -83,7 +82,6 @@ export class AppComponent extends React.Component<Props, State> {
 		window.removeEventListener('scroll', this.scrollHandler);
 	}
 
-
 	private scrollHandler = (e) => {
 		this.setState({
 			scrollTop: window.scrollY
@@ -109,7 +107,8 @@ export class AppComponent extends React.Component<Props, State> {
 					<div style={{left: '50px', top: '50px'}} className="test-layer-blocks">
 						<div className="content">
 							<h1>REACT PARALLAX MAP</h1>
-							<p> React component with TypeScript for making parallax effect in React with using parallax maps</p>
+							<p> React component with TypeScript for making parallax effect in React with using parallax
+								maps</p>
 						</div>
 					</div>
 
@@ -122,7 +121,6 @@ export class AppComponent extends React.Component<Props, State> {
 						</div>
 					</div>
 				</ParallaxMap>
-
 			</div>
 		);
 	}

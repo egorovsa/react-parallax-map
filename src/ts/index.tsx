@@ -21,7 +21,6 @@ export interface ParallaxRange {
 	points?: Point[],
 }
 
-
 export interface Props {
 	map: ParallaxRange[],
 	currentScroll: number
@@ -91,7 +90,6 @@ export class ParallaxMap extends React.Component<Props, State> {
 			y: directedPoints[0].y,
 		};
 
-
 		for (let i = 0; i < radius; i++) {
 			exit.push({
 				x: directedPoints[i].x - ratio.x,
@@ -105,13 +103,17 @@ export class ParallaxMap extends React.Component<Props, State> {
 	private convertMapForRadius(map): ParallaxRange[] {
 		return map.map((mapItem) => {
 			if (mapItem.hasOwnProperty('radius') && mapItem.radius > 0) {
-				return Object.assign(mapItem, {
-					points: this.getPoints(mapItem.radius, mapItem.direction, mapItem.angle, mapItem.step)
-				})
+				return {
+					...mapItem, ...{
+						points: this.getPoints(mapItem.radius, mapItem.direction, mapItem.angle, mapItem.step)
+					}
+				};
 			} else {
-				return Object.assign(mapItem, {
-					points: []
-				})
+				return {
+					...mapItem, ...{
+						points: []
+					}
+				};
 			}
 		});
 	};

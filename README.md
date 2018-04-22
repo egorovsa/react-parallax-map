@@ -6,7 +6,7 @@ Demo [react-parallax-map](http://parallax.egorov.pw/)
 
 ## How to install
 ```
-npm i react-dropdown-ui --save
+npm i react-parallax-map --save
 ```
 
 ## How to import
@@ -48,7 +48,7 @@ let layerData = [
 		direction: false,
 		angle: -280,
 		step: 0.15
-	}
+	};
 	
     <UIParalaxMap
         map={layerData}
@@ -83,11 +83,22 @@ let layerData = [
 ## For development
 just use:
 
-+ $ yarn or $ npm i
-+ $ gulp
+```
+$ yarn or $ npm i
+$ yarn dev
+```
+or
+```
+$ npm run dev
+```
 
 open your browser http://localhost:3000
 
 ## For Build
-
-$ ./production
+```
+$ yarn production
+```
+or 
+```
+$npm run production
+```
