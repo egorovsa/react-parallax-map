@@ -1,7 +1,7 @@
 {
 	"name": "react-parallax-map",
 	"description": "React ui parallax map",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"main": "./lib/index.js",
 	"author": "Egorov Sergey",
 	"license": "MIT",

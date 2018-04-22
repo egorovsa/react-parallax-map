@@ -48,15 +48,16 @@ let layerData = [
 		direction: false,
 		angle: -280,
 		step: 0.15
-	};
-	
+	}
+];	
+
     <UIParalaxMap
         map={layerData}
         currentScroll={this.state.scrollTop}
         layerClassName="test-layer-bg"
         layerZIndex={0}
     />
-];
+
 ```
 
 ### Specification
